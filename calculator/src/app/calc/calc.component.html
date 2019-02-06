@@ -1,0 +1,37 @@
+<div class="calcContainer">
+  <div class="calscreen">{{ screen }}</div>
+  <div class="calButtons">
+    <div class="row">
+      <button (click)="clear()" class="button">C</button>
+      <button (click)="negate()" class="button">+/-</button>
+      <button (click)="calcType('/')" class="button">/</button>
+      <button (click)="calcType('*')" class="button">*</button>
+
+    </div>
+    <div class="row">
+      <button (click)="selectNum('7')" class="button">7</button>
+      <button (click)="selectNum('8')" class="button">8</button>
+      <button (click)="selectNum('9')" class="button">9</button>
+      <button (click)="calcType('-')" class="button">-</button>
+
+    </div>
+    <div class="row">
+      <button (click)="selectNum('4')" class="button">4</button>
+      <button (click)="selectNum('5')" class="button">5</button>
+      <button (click)="selectNum('6')" class="button">6</button>
+      <button (click)="calcType('+')" class="button">+</button>
+
+    </div>
+    <div class="row">
+      <button (click)="selectNum('1')" class="button">1</button>
+      <button (click)="selectNum('2')" class="button">2</button>
+      <button (click)="selectNum('3')" class="button">3</button>
+      <button (click)="complete()" class="button longVertical">=</button>
+
+    </div>
+    <div class="row">
+      <button (click)="selectNum('0')" class="button longHorizontal">0</button>
+      <button (click)="selectNum('.')" class="button ">.</button>
+    </div>
+  </div>
+</div>

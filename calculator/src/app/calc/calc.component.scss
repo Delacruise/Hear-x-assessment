@@ -1,0 +1,50 @@
+.calcContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background: #eee;
+  width: 500px;
+  height: 430px;
+  overflow: hidden;
+  margin: auto;
+
+  .calscreen {
+    background: green;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;  
+    padding: 0px 20px;
+    font-size: 90px;
+    text-align: right;
+    color: #eee;
+  }
+
+  .row {
+    position: relative;
+    float: left;
+
+    .button {
+      width: 111px;
+      float: left;
+      text-align: center;    
+      background: #666;
+      padding: 15px 5px;
+      margin: 7px;
+      border-radius: 5px;
+    }
+  
+    .longVertical {
+      height: 112px;
+      position: absolute;
+    }
+  
+    .longHorizontal {
+      width: 238px;
+    }
+  
+    .button:hover {
+      background: #333;
+      cursor: pointer;
+    }
+  }  
+}
