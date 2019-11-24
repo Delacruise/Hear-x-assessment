@@ -55,6 +55,4 @@ I lost a lot of time trying to solve this problem, but unfortunately, I still do
 3) Unit Testing
 Unfortunately unit testing was last on my priority list... and then I ran out of time.  
 
-Obviously, If I had more time I would have focused more on the items above. Other items I would have focused on would have been the design. The current design is a bit bland and not crisp enough. I would also have liked to add a bit more bells and whistles, especially on the final results section.
-
-I would have wanted it to be more analytical. Reaction time per click per ear. Graphical percentage indication per ear. History test log that is saved against the patient name. This data can then be used to compare tests and more animations.
+Obviously, If I had more time I would have focused more on the items above. Other items I would have focused on would have been the design. The current design is a bit bland and not crisp enough. I would also have liked to add a bit more bells and whistles, especially on the final results section. I would have wanted it to be more analytical. Reaction time per click per ear. Graphical percentage indication per ear. History test log that is saved against the patient name. This data can then be used to compare tests and more animations. Finally I would have improved on my overall code. I had some unforseen problems getting SCSS and JQuery to work with the current version of vue. If I could have gotten them up and running my code would have shorter.
